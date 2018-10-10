@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		74E51107216DF29600603212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51106216DF29600603212 /* AppDelegate.m */; };
-		74E5110A216DF29600603212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51109216DF29600603212 /* ViewController.m */; };
 		74E5110D216DF29600603212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E5110B216DF29600603212 /* Main.storyboard */; };
 		74E5110F216DF29800603212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E5110E216DF29800603212 /* Assets.xcassets */; };
 		74E51112216DF29800603212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E51110216DF29800603212 /* LaunchScreen.storyboard */; };
 		74E51115216DF29800603212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51114216DF29800603212 /* main.m */; };
 		74E5111F216DF29900603212 /* barItemExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5111E216DF29900603212 /* barItemExpandTests.m */; };
 		74E5112A216DF29900603212 /* barItemExpandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51129216DF29900603212 /* barItemExpandUITests.m */; };
+		74E5113E216DF2D400603212 /* UIBarItem+FixedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51138216DF2D400603212 /* UIBarItem+FixedPosition.m */; };
+		74E5113F216DF2D400603212 /* UINavigationBar+FixedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5113A216DF2D400603212 /* UINavigationBar+FixedPosition.m */; };
+		74E51140216DF2D400603212 /* UINavigationItem+FixedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5113D216DF2D400603212 /* UINavigationItem+FixedPosition.m */; };
+		74E51144216DF36800603212 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51143216DF36800603212 /* UIView+Addition.m */; };
+		74E51147216DF47400603212 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E51146216DF47400603212 /* FirstViewController.m */; };
+		74E5114F216DF73400603212 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5114E216DF73400603212 /* SecondViewController.m */; };
+		74E51152216DFAB400603212 /* left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E51150216DFAB300603212 /* left@3x.png */; };
+		74E51153216DFAB400603212 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E51151216DFAB400603212 /* left@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 		74E51102216DF29600603212 /* barItemExpand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barItemExpand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E51105216DF29600603212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74E51106216DF29600603212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74E51108216DF29600603212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74E51109216DF29600603212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74E5110C216DF29600603212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E5110E216DF29800603212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E51111216DF29800603212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,20 @@
 		74E51125216DF29900603212 /* barItemExpandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barItemExpandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E51129216DF29900603212 /* barItemExpandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barItemExpandUITests.m; sourceTree = "<group>"; };
 		74E5112B216DF29900603212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E51138216DF2D400603212 /* UIBarItem+FixedPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+FixedPosition.m"; sourceTree = "<group>"; };
+		74E51139216DF2D400603212 /* UIBarItem+FixedPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+FixedPosition.h"; sourceTree = "<group>"; };
+		74E5113A216DF2D400603212 /* UINavigationBar+FixedPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FixedPosition.m"; sourceTree = "<group>"; };
+		74E5113B216DF2D400603212 /* UINavigationItem+FixedPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+FixedPosition.h"; sourceTree = "<group>"; };
+		74E5113C216DF2D400603212 /* UINavigationBar+FixedPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FixedPosition.h"; sourceTree = "<group>"; };
+		74E5113D216DF2D400603212 /* UINavigationItem+FixedPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+FixedPosition.m"; sourceTree = "<group>"; };
+		74E51142216DF36800603212 /* UIView+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		74E51143216DF36800603212 /* UIView+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		74E51145216DF47400603212 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		74E51146216DF47400603212 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		74E5114D216DF73400603212 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		74E5114E216DF73400603212 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		74E51150216DFAB300603212 /* left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@3x.png"; sourceTree = "<group>"; };
+		74E51151216DFAB400603212 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +120,21 @@
 		74E51104216DF29600603212 /* barItemExpand */ = {
 			isa = PBXGroup;
 			children = (
+				74E5114C216DF6F800603212 /* Navigation */,
+				74E5114B216DF66B00603212 /* ThirdSDK */,
 				74E51105216DF29600603212 /* AppDelegate.h */,
 				74E51106216DF29600603212 /* AppDelegate.m */,
-				74E51108216DF29600603212 /* ViewController.h */,
-				74E51109216DF29600603212 /* ViewController.m */,
 				74E5110B216DF29600603212 /* Main.storyboard */,
 				74E5110E216DF29800603212 /* Assets.xcassets */,
 				74E51110216DF29800603212 /* LaunchScreen.storyboard */,
 				74E51113216DF29800603212 /* Info.plist */,
 				74E51114216DF29800603212 /* main.m */,
+				74E51145216DF47400603212 /* FirstViewController.h */,
+				74E51146216DF47400603212 /* FirstViewController.m */,
+				74E5114D216DF73400603212 /* SecondViewController.h */,
+				74E5114E216DF73400603212 /* SecondViewController.m */,
+				74E51151216DFAB400603212 /* left@2x.png */,
+				74E51150216DFAB300603212 /* left@3x.png */,
 			);
 			path = barItemExpand;
 			sourceTree = "<group>";
@@ -130,6 +155,28 @@
 				74E5112B216DF29900603212 /* Info.plist */,
 			);
 			path = barItemExpandUITests;
+			sourceTree = "<group>";
+		};
+		74E5114B216DF66B00603212 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				74E51142216DF36800603212 /* UIView+Addition.h */,
+				74E51143216DF36800603212 /* UIView+Addition.m */,
+			);
+			name = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		74E5114C216DF6F800603212 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				74E51139216DF2D400603212 /* UIBarItem+FixedPosition.h */,
+				74E51138216DF2D400603212 /* UIBarItem+FixedPosition.m */,
+				74E5113C216DF2D400603212 /* UINavigationBar+FixedPosition.h */,
+				74E5113A216DF2D400603212 /* UINavigationBar+FixedPosition.m */,
+				74E5113B216DF2D400603212 /* UINavigationItem+FixedPosition.h */,
+				74E5113D216DF2D400603212 /* UINavigationItem+FixedPosition.m */,
+			);
+			name = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E51152216DFAB400603212 /* left@3x.png in Resources */,
 				74E51112216DF29800603212 /* LaunchScreen.storyboard in Resources */,
+				74E51153216DFAB400603212 /* left@2x.png in Resources */,
 				74E5110F216DF29800603212 /* Assets.xcassets in Resources */,
 				74E5110D216DF29600603212 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E5110A216DF29600603212 /* ViewController.m in Sources */,
+				74E51144216DF36800603212 /* UIView+Addition.m in Sources */,
 				74E51115216DF29800603212 /* main.m in Sources */,
+				74E51140216DF2D400603212 /* UINavigationItem+FixedPosition.m in Sources */,
+				74E5113E216DF2D400603212 /* UIBarItem+FixedPosition.m in Sources */,
+				74E5114F216DF73400603212 /* SecondViewController.m in Sources */,
+				74E5113F216DF2D400603212 /* UINavigationBar+FixedPosition.m in Sources */,
 				74E51107216DF29600603212 /* AppDelegate.m in Sources */,
+				74E51147216DF47400603212 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = barItemExpand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = barItemExpand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

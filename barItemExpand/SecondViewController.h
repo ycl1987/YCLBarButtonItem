@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  barItemExpand
 //
 //  Created by 岳重亮 on 2018/10/10.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface SecondViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
